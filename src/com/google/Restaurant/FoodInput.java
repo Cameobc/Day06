@@ -16,7 +16,7 @@ public class FoodInput {
 			System.out.println("가격 입력");
 			food.price = sc.nextInt();
 			System.out.println("재고 입력");
-			food.total= sc.nextInt();
+			food.total= sc.nextInt();			
 			foods[i]=food;			
 		}
 		
