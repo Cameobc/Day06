@@ -18,22 +18,26 @@ public class FoodMenu {
 
 			if(select == 1) {
 				while(check) {
-					view.listview(foods);
-					select=sc.nextInt();
-					System.out.println("주문 수량을 입력하세요.");
-					int count = sc.nextInt();
-					if(select==)
-					break;
+					int num =0;
+					Food [] count = new Food[num];
+
+					for(int i =0; i<foods.length; i++) {
+						Food food = foods[i];
+						System.out.println((i+1)+"번 메뉴 "+food.menu);
+						System.out.println("가격 "+food.price);
+						System.out.println("재고수량 "+food.total);
+						System.out.println("=============================");
+					}
+					System.out.println((foods.length+1)+"번. 주문");
+					System.out.println("메뉴를 선택하세요.");
+					select = sc.nextInt();			
+					System.out.println("수랑을 입력하세요.");
+					num = sc.nextInt();
+					if(select!=(foods.length+1)) {
+						
+					}
 				}
-			}else {
-				//결산시 나올 부분
-
-				break;
-			}
-
-
-			break;
-
+				}
 		}//while
 	}
 
