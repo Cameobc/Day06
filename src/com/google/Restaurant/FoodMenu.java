@@ -31,8 +31,7 @@ public class FoodMenu {
 					System.out.println("메뉴를 선택하세요.");
 					select = sc.nextInt();			
 					System.out.println("수랑을 입력하세요.");
-					 = sc.nextInt();			
-					count[num];
+					num = sc.nextInt();			
 					if(select!=(foods.length+1)) {
 						
 					}
